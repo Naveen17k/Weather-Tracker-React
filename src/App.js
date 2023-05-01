@@ -1,9 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import { useState } from 'react';
 import axios from 'axios';
 import Weather from './Weather';
-import { BsSearch } from 'react-icons/bs';
 
 function App() {
   const [city, setCity] = useState("");
