@@ -1,7 +1,25 @@
-body {
+
+@media only screen and (max-width: 600px) {
+  body {
+  
+    height: 100vh; /* set image height to 100% of viewport height */
+    width: auto; /* set width to auto to maintain aspect ratio */
   background-image: url('https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') ;
   background-size: cover;
   background-repeat: no-repeat; 
 
 }
+}
 
+
+@media only screen and (min-width: 601px) {
+  body {
+  
+    height: 100vh; /* set image height to 100% of viewport height */
+    width: auto; /* set width to auto to maintain aspect ratio */
+  background-image: url('https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') ;
+  background-size: cover;
+  background-repeat: no-repeat; 
+
+}
+}

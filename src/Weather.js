@@ -21,7 +21,7 @@ const Weather = ({ data }) => {
                 </div>
                 <p className=' text-white text-7xl mx-2'>{data.main.temp.toFixed(0)}&#176;</p>
             </div>      {/* Bottom */}
-            <div className='bg-black bg-opacity-70 relative p-8 mt-52 rounded-md'>
+            <div className='bg-black bg-opacity-40 relative p-8 mt-40 rounded-md'>
                 <p className='text-xl text-center pb-6'>Weather in {data.name}</p>
                 <div className='grid grid-cols-3 gap-4'>
                     <div className='flex flex-col items-center'>
